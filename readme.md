@@ -1,0 +1,1 @@
+# Vagrant environment for a Windows Server 2016 based Active Directory
