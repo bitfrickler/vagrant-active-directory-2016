@@ -9,7 +9,7 @@ domain_safemode_password = "Admin123#"
 
 Vagrant.configure("2") do |config|
   config.vm.define "dc" do |cfg|
-    cfg.vm.box = "windows_server_2016_dc_core"
+    cfg.vm.box = "windows_server_2016_dc"
     cfg.vm.hostname = hostname
 
     # use the plaintext WinRM transport and force it to use basic authentication.
