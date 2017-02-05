@@ -1,8 +1,8 @@
 param
 (
-    [string]$domainName = "test.local",
-    [string]$domainNetbiosName = "TEST",
-    [string]$safeModePass = "Vagrant123#"
+    [string]$domainName = "bitfrickler.local",
+    [string]$domainNetbiosName = "BITFRICKLER",
+    [string]$safeModePass = "Admin123#"
 )
 
 Install-ADDSForest `
